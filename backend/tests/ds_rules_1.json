@@ -1,0 +1,14 @@
+[
+ [4,4,0,0,0,0,[]],
+ [4,3,0,0,1,1,["SHORTAGE"]],
+ [4,0,0,0,4,4,["SHORTAGE"]],
+ [4,4,1,0,0,1,["EXPIRED"]],
+ [4,4,0,1,0,1,["EXPIRY_UNKNOWN"]],
+ [4,3,1,1,1,3,["SHORTAGE","EXPIRED","EXPIRY_UNKNOWN"]],
+ [4,6,1,1,0,0,["EXPIRED","EXPIRY_UNKNOWN"]],
+ [4,2,2,0,2,4,["SHORTAGE","EXPIRED"]],
+ [0,0,0,0,0,0,[]],
+ [0,2,1,0,0,0,["EXPIRED"]],
+ [4,6,0,3,0,1,["EXPIRY_UNKNOWN"]],
+ [4,5,0,0,0,0,[]]
+]

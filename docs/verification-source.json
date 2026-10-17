@@ -1,0 +1,66 @@
+{
+  "created_at_utc": "2026-10-17T11:48:41.260787+00:00",
+  "platform": "macOS-26.4-arm64-arm-64bit",
+  "python": "3.12.13",
+  "packages": {
+    "fastapi": "0.143.3",
+    "SQLAlchemy": "2.1.5",
+    "Pillow": "13.0.0",
+    "reportlab": "5.0.1",
+    "starlette": "1.8.0",
+    "pytest": "9.1.1",
+    "psycopg": "3.3.6"
+  },
+  "checks": {
+    "pytest": {
+      "passed": 72,
+      "failed": 0
+    },
+    "ds_rules_1": {
+      "passed": 12
+    },
+    "trace_sqlite": {
+      "passed": 100
+    },
+    "trace_postgresql_after_restart": {
+      "passed": 100
+    },
+    "backup_restored_completed_records": 104
+  },
+  "source_sha256": {
+    "Caddyfile": "184890652bc1c40435c274662fa38afb3ae48e44392b4291269f8e07507adfab",
+    "Dockerfile": "ffb733e1d10a6af3e3d6c4653eb4bf16fef805aa6052cffd1227b7296d461ec8",
+    "backend/app/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "backend/app/cli.py": "d5122e870f367c294cdae35c222c370cec89eec846d657fad49f6a466baf7a89",
+    "backend/app/db.py": "f5a67f1686000d6bd8aabd7baa6a8f7ad7d18260982d16acf1aff551a12d420b",
+    "backend/app/main.py": "6c908c92a119ea93891074d66d79c93963b6056ebe66f9e7bf7f59a42af83cdf",
+    "backend/app/ocr.py": "419ec553d6dba5487fdd591542b233e412476ea4686238a79399df225e848683",
+    "backend/app/reports.py": "52be8d1b7a3c59dbe02f1fd9dc10f17d0ffcb3b702fd68b776716e41ea38a1fa",
+    "backend/app/rules.py": "357d433b0978c7e30c09863061bbb567bb976b910833f6d200c64fbe7b35a65b",
+    "backend/app/schemas.py": "c467c8a40babcbe7541828825764a4034c34329871315bad4423d40221eb016e",
+    "backend/constraints.txt": "ee5cda661b4ec24aa0cedcd46422bf164bc7b3fc5027c2f809c9458459c3579c",
+    "backend/requirements-dev.txt": "e657b16f02eb35b01ba7cc59e032308f8957530d9f66b7ac856ae535af6c82be",
+    "backend/requirements.txt": "d3f8fa29ecbedb3f7b89d31ca59433902e462b93de395f66cd58d5b6e62facff",
+    "backend/tests/conftest.py": "0e5fcb41d05a2d724171ed6ede9730b944929e7844c9091907f922b64ef5a6bf",
+    "backend/tests/ds_rules_1.json": "cdd352fb510cffd90a1593d0dc750d9b1977b6f4e5d9fa2960d7dbd4905bf629",
+    "backend/tests/test_api.py": "fac9bd645cd8922dcf80bfd17a9c0f766364b5865069ba65d5d2a4d33441d592",
+    "backend/tests/test_pilot_metrics.py": "a0df401b6328f93897d2b985bbbdc1df1a1cbd980f6d6bec2175a066db4022b0",
+    "backend/tests/test_reports.py": "96d7a37d118d5be63dcabd4812d773095dfe9fe3e49ae80b15e2afd76d4cc731",
+    "backend/tests/test_rules.py": "623da0874b4be28ad51f857701fc3bf31a5f78af5ea140c341bcde3fb9a7ba4c",
+    "backend/tests/test_trace.py": "4b2ce5f036d10871248d440f93b443a79ee8c19717599dbe8609db7b63744aba",
+    "compose.yaml": "e69f1b5935d47bb5a7382b9ec0678fbad4a9a235599485c4e7ad6c9dea41ca69",
+    "frontend/package-lock.json": "680e2d257bd97f490e725b9f2cb4ba2fb9091f2ef510187898c711d7490f65eb",
+    "frontend/package.json": "9b72d150298cc9537c02341d1b44682ce037b7910a0607127f8b70a9114fb0f0",
+    "frontend/src/api.ts": "2c2830ad600d68d02f75eacbbafaf1400da2af06118caf6e778f68120ddd838f",
+    "frontend/src/main.tsx": "544424ae2c4047a7cf6e39c0129f2aeec35e41df3c23f6aeb8d3db5b70b03a14",
+    "frontend/src/styles.css": "b511f7f427c2a5beecc730e26bd51cf35f6089ccda3b865ca4a1bfe8eb123e22",
+    "scripts/backup.sh": "d078857559317a2e99c097fcb8e0fc40f7cb2917e2252356da711840cf6cff32",
+    "scripts/check_backup.sh": "9fb218d943200efec6e7b2be1f7fa248586b07d5208e1762f27b9b1adb54ce3a",
+    "scripts/compose.sh": "52032e5bc12e6845866a45519a5aa454ffc33fac867ecb809ee58e46e87d4189",
+    "scripts/dev.sh": "64db4e7cf1bce8ce5bd13dfb26ba544cbc5ff62cb025aeb9a8f9394e338c9882",
+    "scripts/evaluate_pilot.py": "a7930147f9f5234cb4f4e232f06e6fb5aeda3aed585cbe23c09863fee14709a7",
+    "scripts/restore.sh": "51ba676e25ac79a002f4d52ed296e9333dd38f6fd0b54de0bc94c06eac073e91",
+    "scripts/smoke.py": "554e29ef35912bced7d2f162ec121324658b2a5e236e81ebc1180039540a41a8",
+    "scripts/trace_postgres.py": "008a915777f15b1836116a5e5e1387760f87d31bb347a8c05e5408b4a15f70f5"
+  }
+}
